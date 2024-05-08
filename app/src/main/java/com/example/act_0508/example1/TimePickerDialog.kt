@@ -1,4 +1,4 @@
-package com.example.week10.example1
+package com.example.act_0508.example1
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row

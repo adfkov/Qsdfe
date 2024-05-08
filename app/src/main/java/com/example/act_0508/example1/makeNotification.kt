@@ -1,9 +1,11 @@
-package com.example.week10.example1
+package com.example.act_0508.example1
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Context
 import androidx.core.app.NotificationCompat
+import com.example.act_0508.R
+import com.example.act_0508.example1.createPendingIntent
 import com.example.week10.R
 
 fun makeNotification(context: Context, msg: String) {

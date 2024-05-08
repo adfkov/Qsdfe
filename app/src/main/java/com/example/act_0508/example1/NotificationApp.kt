@@ -1,4 +1,4 @@
-package com.example.week10
+package com.example.act_0508.example1
 
 import android.Manifest
 import android.app.NotificationChannel

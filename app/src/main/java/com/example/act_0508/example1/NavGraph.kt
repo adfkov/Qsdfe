@@ -1,4 +1,4 @@
-package com.example.week10.example1
+package com.example.act_0508.example1
 
 import android.content.Intent
 import androidx.compose.foundation.layout.Column
@@ -11,6 +11,7 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.example.week10.example1.MsgShow
 
 @Composable
 fun NavGraph(navController: NavHostController) {

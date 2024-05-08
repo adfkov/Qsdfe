@@ -1,4 +1,4 @@
-package com.example.applistexample.lazyui
+package com.example.act_0508.example1
 
 import android.content.Context
 import android.content.Intent
