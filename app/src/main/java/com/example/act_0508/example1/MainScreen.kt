@@ -21,7 +21,6 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.platform.LocalContext
-import com.example.week10.example1.makeNotification
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberPermissionState
@@ -132,7 +131,7 @@ fun MainScreen() {
                             showTimePicker = false
 
                             coroutineScope.launch {
-                                delay(2000)
+                                delay(2000) // 2초 뒤에 알림이 감
                                 makeNotification(context, msg = currentMsg)
                             }
 

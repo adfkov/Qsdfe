@@ -1,4 +1,4 @@
-package com.example.act_0508.example1
+package com.example.act_0508
 
 import android.Manifest
 import android.app.NotificationChannel
@@ -172,7 +172,7 @@ fun showSimpleNotification(
     priority: Int = NotificationCompat.PRIORITY_DEFAULT
 ) {
     val builder = NotificationCompat.Builder(context, channelId)
-        .setSmallIcon(R.drawable.baseline_access_alarm_24)
+        .setSmallIcon(R.drawable.baseline_access_alarms_24)
         .setContentTitle(textTitle)
         .setContentText(textContent)
         .setPriority(priority)
@@ -208,7 +208,7 @@ fun showSimpleNotificationWithTapAction(
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE)
 
     val builder = NotificationCompat.Builder(context, channelId)
-        .setSmallIcon(R.drawable.baseline_access_alarm_24)
+        .setSmallIcon(R.drawable.baseline_access_alarms_24)
         .setContentTitle(textTitle)
         .setContentText(textContent)
         .setPriority(priority)
@@ -244,7 +244,7 @@ fun showLargeTextNotification(
     priority: Int = NotificationCompat.PRIORITY_DEFAULT
 ) {
     val builder = NotificationCompat.Builder(context, channelId)
-        .setSmallIcon(R.drawable.baseline_access_alarm_24)
+        .setSmallIcon(R.drawable.baseline_access_alarms_24)
         .setContentTitle(textTitle)
         .setContentText(textContent)
         .setStyle(
@@ -283,7 +283,7 @@ fun showLargeTextWithBigIconNotification(
     priority: Int = NotificationCompat.PRIORITY_DEFAULT
 ) {
     val builder = NotificationCompat.Builder(context, channelId)
-        .setSmallIcon(R.drawable.baseline_access_alarm_24)
+        .setSmallIcon(R.drawable.baseline_access_alarms_24)
         .setContentTitle(textTitle)
         .setContentText(textContent)
         .setLargeIcon(largeIcon)
@@ -323,7 +323,7 @@ fun showBigPictureWithThumbnailNotification(
     priority: Int = NotificationCompat.PRIORITY_DEFAULT
 ) {
     val builder = NotificationCompat.Builder(context, channelId)
-        .setSmallIcon(R.drawable.baseline_access_alarm_24)
+        .setSmallIcon(R.drawable.baseline_access_alarms_24)
         .setContentTitle(textTitle)
         .setContentText(textContent)
         .setLargeIcon(bigImage)
